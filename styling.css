@@ -24,3 +24,7 @@ div {
 	vertical-align: center;
 	
 }
+
+div:hover {
+	background-color: cyan;
+}
