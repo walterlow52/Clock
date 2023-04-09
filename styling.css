@@ -22,7 +22,7 @@ div {
 	font-variant: small-caps;
 	display: inline-block;
 	vertical-align: center;
-	transform: translate(0px, 50px);
+	transform: translate(0px, 100px);
 	transform: scale(1,2);
 	
 }
