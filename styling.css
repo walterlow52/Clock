@@ -9,6 +9,7 @@ div {
 	border: 2px double yellow;
 	border-bottom: 10px;
 	border-radius: 5px;
+	outline: 5px dotted black;
 	text-align: center;
 	margin: auto;
 	width: 100%;
