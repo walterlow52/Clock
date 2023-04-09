@@ -7,9 +7,9 @@ body {
 div {
 	color: white;
 	border: 2px double yellow;
-	border-bottom: 10px;
-	border-radius: 5px;
+	border-bottom: 10px solid yellow;
 	outline: 5px dotted black;
+	border-radius: 5px;
 	text-align: center;
 	margin: auto;
 	width: 100%;
