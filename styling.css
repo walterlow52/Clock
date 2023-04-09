@@ -8,7 +8,7 @@ div {
 	color: white;
 	border: 2px double yellow;
 	border-bottom: 10px solid yellow;
-	outline: 5px dotted black;
+	outline: 5px outset black;
 	border-radius: 5px;
 	text-align: center;
 	margin: auto;
