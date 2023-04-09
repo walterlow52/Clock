@@ -9,7 +9,7 @@ div {
 	border: 2px double yellow;
 	border-bottom: 5px solid yellow;
 	border-radius: 5px;
-	outline: 30px outset darkgray;
+	outline: 30px outset black;
 	padding: 10px;
 	text-align: center;
 	letter-spacing: 3px;
@@ -22,6 +22,7 @@ div {
 	font-variant: small-caps;
 	display: inline-block;
 	vertical-align: center;
+	transform: scale(1,3);
 	
 }
 
