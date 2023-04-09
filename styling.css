@@ -19,6 +19,7 @@ div {
 	height: 100%;
 	font-family: "Audiowide", sans-serif;
 	font-weight: bold;
+	font-variant: small-caps;
 	display: inline-block;
 	vertical-align: center;
 	
