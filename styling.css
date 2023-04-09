@@ -4,7 +4,7 @@ body {
 	background-attachment: fixed;
 }
 
-#clock {
+div {
 	color: white;
 	border: 2px double white;
 	border-radius: 5px;
