@@ -23,7 +23,7 @@ div {
 	display: inline-block;
 	vertical-align: center;
 	transform: translate(0px, 100px);
-	transform: scale(1,2);
+	/*transform: scale(1,2);*/
 	
 }
 
