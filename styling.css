@@ -9,7 +9,7 @@ div {
 	border: 2px double yellow;
 	border-bottom: 5px solid yellow;
 	border-radius: 5px;
-	outline: 30px outset black;
+	outline: 30px outset darkgray;
 	padding: 10px;
 	text-align: center;
 	letter-spacing: 3px;
