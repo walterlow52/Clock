@@ -51,7 +51,7 @@ button:hover {
 }
 
 footer {
-	transform: translate(0px, 100px);	
+	transform: translate(0px, 150px);	
 }
 
 @keyframes text {
