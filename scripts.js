@@ -23,8 +23,7 @@ let clock12 = () => {
 	let seconds = date.getSeconds();
 
 	let time_period = "";
-	time_period = hours < 12 ? "AM" : "PM";
-	time_period = hours < 12 ? hours = hours - 12 : hours;
+	time_period = hours < 12 ? (hours - 12) + "AM" : hours + "PM";
 
 	hours = hours < 10 ? `0${hours}` : hours;
 	minutes = minutes < 10 ? `0${minutes}` : minutes;
