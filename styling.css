@@ -33,6 +33,10 @@ div:hover {
 	animation-iteration-count: infinite;
 }
 
+button {
+	margin: 20px 50px;	
+}
+
 @keyframes text {
 	0% {color: red;}
 	20% {color: orange;}
