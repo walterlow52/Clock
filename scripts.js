@@ -31,8 +31,8 @@ let clock12 = () => {
 	seconds = seconds < 10 ? `0${seconds}` : seconds;
 
 	let time = `${hours}:${minutes}:${seconds}`
-	document.getElementById("clock12").innerHTML = time + ":" + time_period;
-	setTimeout(clock12, 1000);	
+	document.getElementById("clock").innerHTML = time + ":" + time_period;
+	setTimeout(clock, 1000);	
 }
 
 clock12();
