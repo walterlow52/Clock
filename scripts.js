@@ -13,7 +13,7 @@ let clock = () => {
 
 	let time = `${hours}:${minutes}:${seconds}`
 	document.getElementById("clock").innerHTML = time + ":" + time_period;
-	setTimeout(clock, 1000);
+	//setTimeout(clock, 1000);
 }
 
 let clock12 = () => {
@@ -32,7 +32,7 @@ let clock12 = () => {
 
 	let time = `${hours}:${minutes}:${seconds}`
 	document.getElementById("clock").innerHTML = time + ":" + time_period;
-	setTimeout(clock, 1000);	
+	//setTimeout(clock, 1000);	
 }
 
 clock12();
