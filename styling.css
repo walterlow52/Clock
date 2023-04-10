@@ -41,7 +41,6 @@ button {
 	border: 2px solid lime;
 	border-radius: 50%;
 	padding: 10px;
-	margin: 20px 50px;
 	text-align: center;
 }
 
@@ -51,7 +50,7 @@ button:hover {
 }
 
 footer {
-	transform: translate(0px, 150px);	
+	transform: translate(0px, 200px);	
 }
 
 @keyframes text {
