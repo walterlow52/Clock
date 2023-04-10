@@ -22,7 +22,7 @@ div {
 	font-variant: small-caps;
 	display: inline-block;
 	vertical-align: center;
-	transform: matrix(1, 0, 0, 2, 0, 100px);
+	transform: scale(1, 2);
 }
 
 div:hover {
