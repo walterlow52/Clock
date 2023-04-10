@@ -23,8 +23,9 @@ let clock12 = () => {
 	let seconds = date.getSeconds();
 
 	let time_period = "";
-	time_period = hours < 12 ? (hours - 12) + "AM" : hours + "PM";
+	time_period = hours < 12 ? "AM" : "PM";
 
+	hours = hours > 12 ? hours - 12 : hours;
 	hours = hours < 10 ? `0${hours}` : hours;
 	minutes = minutes < 10 ? `0${minutes}` : minutes;
 	seconds = seconds < 10 ? `0${seconds}` : seconds;
