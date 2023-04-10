@@ -34,3 +34,5 @@ let clock12 = () => {
 	document.getElementById("clock12").innerHTML = time + ":" + time_period;
 	setTimeout(clock, 1000);	
 }
+
+clock12();
