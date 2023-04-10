@@ -7,9 +7,9 @@ body {
 div {
 	color: white;
 	border: 2px double yellow;
-	border-bottom: 5px solid yellow;
+	border-bottom: 30px solid yellow;
 	border-radius: 5px;
-	outline: 30px outset white;
+	outline: 10px outset white;
 	padding: 10px;
 	text-align: center;
 	letter-spacing: 3px;
