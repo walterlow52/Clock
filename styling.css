@@ -37,6 +37,10 @@ button {
 	margin: 20px 50px;	
 }
 
+footer {
+	transform: translate(0px, 100px);	
+}
+
 @keyframes text {
 	0% {color: red;}
 	20% {color: orange;}
