@@ -38,4 +38,4 @@ let clock = () => {
 	document.getElementById("clock").innerHTML = time + ":" + time_period;	
 }*/
 
-clock12();
+clock();
