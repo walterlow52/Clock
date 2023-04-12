@@ -6,6 +6,7 @@ let clock = () => {
 
 	let time_period = "";
 	time_period = hours < 12 ? "AM" : "PM";
+	clock12();
 
 	hours = hours < 10 ? `0${hours}` : hours;
 	minutes = minutes < 10 ? `0${minutes}` : minutes;
@@ -13,11 +14,11 @@ let clock = () => {
 
 	let time = `${hours}:${minutes}:${seconds}`
 	document.getElementById("clock").innerHTML = time + ":" + time_period;
-	
+}
+
 	let clock12 = () => {
 		hours = hours > 12 ? hours - 12 : hours;	
 	}
-}
 
 /*let clock12 = () => {
 	let date = new Date();
